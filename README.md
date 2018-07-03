@@ -26,6 +26,15 @@ It eliminate the wait time here. Hence, is memory efficient.
 * It can collect form data
 * It can add, delete, modify data in your database
 
+## Node.js NPM 
+NPM is a package manager for Node.js. It hosts thousands of packages to download. It is similar
+to ```pip```.
+Say you want to download a package named lower-case
+```npm install lower-case```
+And that's all you have to do to use a module in Node.js.
+
+Pretty simple huhh!
+
 This intro part is taken from https://www.w3schools.com/nodejs/nodejs_intro.asp.
 
 
