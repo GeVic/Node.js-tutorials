@@ -18,6 +18,8 @@ var mailStructure = {
   to: 'reciever@anything.com', // For multiple recievers, write the emails comma seperated for the key "to:"
   subject: 'Checking Nodemailer',
   text: 'You got the meassage?'
+  // To send html formatted text, even though it has its cons more than pros
+  html: '<h1>Welcome</h1><p>That was easy!</p>'
 };
 
 
