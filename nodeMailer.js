@@ -15,10 +15,11 @@ var transport = mail.createTransport({
 // Now mail structure
 var mailStructure = {
   from: 'email@gmail.com',
-  to: 'reciever@anything.com',
+  to: 'reciever@anything.com', // For multiple recievers, write the emails comma seperated for the key "to:"
   subject: 'Checking Nodemailer',
   text: 'You got the meassage?'
 };
+
 
 // Everything is ready, just send the mail
 transport.sendMail(function (err, info){
